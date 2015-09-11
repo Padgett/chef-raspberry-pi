@@ -9,9 +9,9 @@ boot config file and optionally resizes the root partition.
 
 # Authors
 
-**Original:** Russ Garrett (russ.garrett@smarkets.com)
-
-**Additional Features::** Joshua Padgett
+- Original Author: Russ Garrett (russ.garrett@smarkets.com)
+- Additional Features: Joshua Padgett
+- Contributor: Federico Castagnini
 
 # How To Use
 
