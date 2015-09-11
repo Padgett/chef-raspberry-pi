@@ -1,0 +1,12 @@
+Metrics/LineLength:
+  Enabled: false
+
+Style/SingleSpaceBeforeFirstArg:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - vendor/**/*

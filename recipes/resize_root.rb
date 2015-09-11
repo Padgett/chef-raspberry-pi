@@ -3,7 +3,7 @@
 # This is copied mostly verbatim from raspi-config
 #
 
-if not File.exists?('/etc/partition-resize-stamp')
+unless File.exist?('/etc/partition-resize-stamp')
 
   bash "resize_partition" do
     user "root"
@@ -50,7 +50,7 @@ EOH
   ruby_block "exit_recipe" do
     # Abort the run here so we don't get interrupted by the reboot
     block do
-      raise
+      fail
     end
   end
 end
