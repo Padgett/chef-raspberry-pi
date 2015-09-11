@@ -1,6 +1,6 @@
-[![Build Status](http://img.shields.io/travis/facastagnini/raspberry-bitcoin.svg)](http://travis-ci.org/facastagnini/raspberry-bitcoin)
-[![Code Coverage](http://img.shields.io/coveralls/facastagnini/raspberry-bitcoin.svg)](https://coveralls.io/r/facastagnini/raspberry-bitcoin)
-[![Dependencies](http://img.shields.io/gemnasium/facastagnini/raspberry-bitcoin.svg)](https://gemnasium.com/facastagnini/raspberry-bitcoin)
+[![Build Status](http://img.shields.io/travis/facastagnini/chef-raspberry-pi.svg)](http://travis-ci.org/facastagnini/chef-raspberry-pi)
+[![Code Coverage](http://img.shields.io/coveralls/facastagnini/chef-raspberry-pi.svg)](https://coveralls.io/r/facastagnini/chef-raspberry-pi)
+[![Dependencies](http://img.shields.io/gemnasium/facastagnini/chef-raspberry-pi.svg)](https://gemnasium.com/facastagnini/chef-raspberry-pi)
 
 # raspberry-pi Cookbook
 
