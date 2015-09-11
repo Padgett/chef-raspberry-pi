@@ -1,9 +1,12 @@
 source 'https://rubygems.org'
 
 group :test do
-  gem 'rake'
-  gem 'gemspec'
   gem 'foodcritic'
   gem 'rubocop'
+end
+
+group :unit do
+  gem 'berkshelf'
+  gem 'chefspec'
   gem 'coveralls', require: false
 end

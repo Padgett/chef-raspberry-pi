@@ -1,7 +1,7 @@
 # encoding: utf-8
 
-# require 'chefspec'
-# require 'chefspec/berkshelf'
+require 'chefspec'
+require 'chefspec/berkshelf'
 require 'coveralls'
 
 # coverage report
