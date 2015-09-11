@@ -1,5 +1,5 @@
+[![Cookbook](http://img.shields.io/cookbook/v/nginx.svg)](https://github.com/Padgett/chef-raspberry-pi)
 [![Build Status](http://img.shields.io/travis/facastagnini/chef-raspberry-pi.svg)](http://travis-ci.org/facastagnini/chef-raspberry-pi)
-[![Code Coverage](http://img.shields.io/coveralls/facastagnini/chef-raspberry-pi.svg)](https://coveralls.io/r/facastagnini/chef-raspberry-pi)
 [![Dependencies](http://img.shields.io/gemnasium/facastagnini/chef-raspberry-pi.svg)](https://gemnasium.com/facastagnini/chef-raspberry-pi)
 
 # raspberry-pi Cookbook
