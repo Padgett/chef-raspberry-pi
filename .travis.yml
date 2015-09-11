@@ -1,27 +1,34 @@
 sudo: false
 cache: bundler
 language: ruby
+
+env:
+  - CHEF_VERSION=master
+  - CHEF_VERSION=12.4.1
+  - CHEF_VERSION=12.4.0
+  - CHEF_VERSION=12.3.0
+  - CHEF_VERSION=12.2.1
+  - CHEF_VERSION=12.1.2
+  - CHEF_VERSION=12.1.1
+  - CHEF_VERSION=12.1.0
+
 rvm:
   - 2.0
   - 2.1
   - 2.2
   - ruby-head
+
 matrix:
   allow_failures:
     - rvm: ruby-head
+    - env: CHEF_VERSION=master
+
 notifications:
   email:
     on_success: change
     on_failure: always
-script:
-  - bundle exec rubocop
+
+#script:
+#  - bundle exec rubocop
 #  - bundle exec rspec --color --format progress
 #  - bundle exec foodcritic -f any .
-
-# install:
-#  - sudo apt-get install libqt4-dev
-#  - pip install PySide --no-index --find-links https://<your-site>;
-#  # Travis CI servers use virtualenvs, so we need to finish the install by the following
-#  - python ~/virtualenv/python${TRAVIS_PYTHON_VERSION}/bin/pyside_postinstall.py -install
-
-# ver: https://github.com/SebastianNiemann/Mantella/blob/master/.travis.yml
