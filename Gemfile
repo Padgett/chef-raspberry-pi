@@ -8,5 +8,4 @@ end
 group :unit do
   gem 'berkshelf'
   gem 'chefspec'
-  gem 'coveralls', require: false
 end
