@@ -2,8 +2,7 @@
 # Cookbook Name:: raspberry-pi
 # Recipe:: default
 
-
-file "/etc/profile.d/raspi-config.sh" do
+file "/etc/profile.d/raspi_config.sh" do
   action :delete
 end
 
