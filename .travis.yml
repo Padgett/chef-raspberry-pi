@@ -1,0 +1,34 @@
+sudo: false
+cache: bundler
+language: ruby
+
+env:
+  - CHEF_VERSION=master
+  - CHEF_VERSION=12.4.1
+  - CHEF_VERSION=12.4.0
+  - CHEF_VERSION=12.3.0
+  - CHEF_VERSION=12.2.1
+  - CHEF_VERSION=12.1.2
+  - CHEF_VERSION=12.1.1
+  - CHEF_VERSION=12.1.0
+
+rvm:
+  - 2.0
+  - 2.1
+  - 2.2
+  - ruby-head
+
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+    - env: CHEF_VERSION=master
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+
+#script:
+#  - bundle exec rubocop
+#  - bundle exec rspec --color --format progress
+#  - bundle exec foodcritic -f any .
